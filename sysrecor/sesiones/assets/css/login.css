@@ -1,0 +1,155 @@
+*{
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+
+body {
+	background: url(../../../sesiones/images/banner.jpg);
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-attachment: fixed;
+	font-family: 'Roboto', sans-serif;
+}
+
+.contenedor-form{
+	background: rgba(0,0,0,.7);
+	width: 100%;
+	max-width: 500px;
+	margin: 48px auto;
+	color: #fff; 
+	border-radius: 20px;
+	/*padding: 40px;*/
+}
+
+.contenedor-form .toggle{
+
+	position: static;
+	top: 7px;
+	right: 7px;
+	width: 120px;
+	height: 30px;
+	font-size: 12px;
+	line-height: 25px;
+	text-align: center;
+	border: 2px solid #ff851b;
+	border-radius: 20px 0px 0px 0px;
+	background: : #ff851b;
+	transition: all . 5s ease;
+	cursor: pointer;
+}
+
+
+.contenedor-form .toggle span{
+	letter-spacing: 1px;
+}
+
+
+.contenedor-form .toggle:hover {
+	border: 2px solid #0075d9;
+	border-bottom: : 2px solid #0075d9;
+}
+
+.contenedor-form h2{
+	margin: 0 0 28px 0;
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 1;
+}
+
+.contenedor-form input[type="prinom"],
+.contenedor-form input[type="segnom"],
+.contenedor-form input[type="priape"],
+.contenedor-form input[type="segape"],
+.contenedor-form input[type="sonom"],
+.contenedor-form input[type="numberi"],
+.contenedor-form input[type="numbercel"],
+.contenedor-form input[type="numbertel"],
+.contenedor-form input[type="password"],
+.contenedor-form input[type="email"]{
+	outline: none;
+	background: rgba(0,0,0,.5);
+	display: block;
+	width: 100%;
+	padding:  10px 15px;
+	color: #fff;
+	border: none;
+	border-radius: 2px;
+	border-bottom: 4px solid #ff851b;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 14px;
+	font-weight: normal;
+	margin: 0 0 20px 0;
+	transition: all .5s ease;
+}
+
+
+
+.contenedor-form input[type="prinom"]:focus,
+.contenedor-form input[type="segnom"]:focus,
+.contenedor-form input[type="priape"]:focus,
+.contenedor-form input[type="segape"]:focus,
+.contenedor-form input[type="sonom"]:focus,
+.contenedor-form input[type="numberi"]:focus,
+.contenedor-form input[type="numbercel"]:focus,
+.contenedor-form input[type="numbertel"]:focus,
+.contenedor-form input[type="password"]:focus,
+.contenedor-form input[type="email"]:focus {
+	border-bottom: 4px solid #0075d9;
+
+
+}
+
+
+.contenedor-form input[type="submit"]{/*color del boton*/
+	background: #ff851b;
+	color: #fff;
+	border: none;
+	width: 100%;
+	padding: 10px 0;
+	font-weight: normal;
+	font-family: 'Roboto'; 
+	letter-spacing: 1px;
+	font-size: 16px;
+	cursor: pointer;
+	transition: all .5s ease;
+}
+
+.contenedor-form input[type="submit"]:hover{/*color del boton adcionado*/
+	background: rgba(0,117,217,0.7);
+	color: #fff;
+	cursor: pointer;
+}
+
+.contenedor-form .reset-password{
+	background:  rgba(0,117,217,0.7);
+	width: 100%;
+	padding: 15px 10px;
+	text-align: center;
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+	border-radius: 0px 0px 20px 20px
+
+}
+
+.contenedor-form .reset-password a {
+	color: #fff;
+	text-decoration: none;
+	font-size: 16px;
+
+}
+
+.contenedor-form .formulario {
+	padding: 40px;
+	display: none;
+
+}
+
+.contenedor-form .formulario:nth-child(2) {
+
+display: block;
+
+}
