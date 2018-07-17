@@ -19,6 +19,8 @@
 		vertical-align: baseline;
 	}
 
+
+
 	article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
 		display: block;
 	}
@@ -2904,21 +2906,21 @@
 		}
 
 			#navPanel .close:before {
-				-moz-osx-font-smoothing: grayscale;
-				-webkit-font-smoothing: antialiased;
-				font-family: 'Ubuntu', sans-serif;
-				font-style: normal;
-				font-weight: normal;
-				text-transform: none !important;
-				content: '\f00d';
-				width: 3em;
-				height: 3em;
-				line-height: 3em;
-				display: block;
-				position: absolute;
-				right: 0;
-				top: 0;
-				text-align: center;
+		    -moz-osx-font-smoothing: grayscale;
+		    -webkit-font-smoothing: antialiased;
+		    font-family: FontAwesome;
+		    font-style: normal;
+		    font-weight: normal;
+		    text-transform: none !important;
+		    content: '\f00d';
+		    width: 3em;
+		    height: 3em;
+		    line-height: 3em;
+		    display: block;
+		    position: absolute;
+		    right: 0;
+		    top: 0;
+		    text-align: center;
 			}
 
 			#navPanel .close:hover {
