@@ -2851,9 +2851,9 @@
 		position: fixed;
 		right: 0;
 		top: 0;
-		background: #868686;
+		background: #1F7020;
 		color: #dec313;
-		height: 100%;
+		height: auto;
 		max-width: 80%;
 		width: 20em;
 		padding: 0.5em 1.25em;
@@ -2920,6 +2920,7 @@
 		    position: absolute;
 		    right: 0;
 		    top: 0;
+		    color: #FFf;
 		    text-align: center;
 			}
 
