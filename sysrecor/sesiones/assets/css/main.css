@@ -19,6 +19,10 @@
 		vertical-align: baseline;
 	}
 
+.informacion{
+	margin: 20px 25px 20px 25px;
+}
+
 .aliados h1{
 		font-size: 200%;
 		color: #000;
