@@ -5,7 +5,6 @@
 ### Integrantes:
 * Flor Marina Jimenez.
 * Juan Pablo Roa Fragozo.
-* Felipe.
 * Wilmer Orlando Daza H.
 
 ### Descripción del Proyecto:
