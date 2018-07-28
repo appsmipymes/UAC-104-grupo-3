@@ -10,7 +10,7 @@
 
 /* Reset */
 
-	html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+	html, body,  span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em,  ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, caption, tbody, tfoot, thead, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
 		margin: 0;
 		padding: 0;
 		border: 0;
@@ -28,6 +28,365 @@
 		color: #000;
 		margin: 100px;
 }
+
+.conte{
+		font-size: auto;
+}
+
+img{
+	max-width: 100%;
+}
+
+
+.reciclar{
+	display:block;
+	margin:20px auto;
+	padding:10px;
+	background-color: #004D1B;
+	width:90%;
+	height:100%;
+}
+
+
+
+
+.reci_1 {
+	display:block;
+	margin:0 auto;
+	padding:5px 5px 0px 5px;
+	background-color: #E8B60C;
+	width:auto;
+	height:auto;
+}
+
+.reci_1 h1{
+	display:block;
+	margin:0 auto;
+	padding:10px;
+	background-color: blue;
+	width:100%;
+	height:auto;
+	font-size: 3em;
+	font-family: 'Raleway', sans-serif;
+	border-radius:10px 10px 10px 10px; 
+}
+
+.reci_1 p{
+	font-family: 'Raleway', sans-serif;
+	font-size: 100%;
+}
+
+.reci_1 .button{
+	display:block; 
+	margin:0 auto;
+	background-color: blue;
+	height:auto;
+	width: 300px;
+	font-size: 1em;
+	border-radius:30px;
+	cursor: pointer;
+}
+
+.reci_1 .button:hover{
+	display:block; 
+	margin:0 auto;
+	background-color: #4A51C2;
+	height:auto;
+	width: 300px;
+	font-size: 1em;
+	border-radius:30px;
+	cursor: pointer;
+}
+
+.reci_1 img{
+	max-width: 70%;
+	margin: 2px;
+}
+
+
+
+.reci_2 {
+	display:block;
+	margin:0 auto;
+	padding:5px 5px 0px 5px;
+	background-color: #E8B60C;
+	width:auto;
+	height:auto;
+}
+
+.reci_2 h1{
+	display:block;
+	margin:0 auto;
+	padding:10px;
+	background-color: blue;
+	width:100%;
+	height:auto;
+	font-size: 3em;
+	font-family: 'Raleway', sans-serif;
+	border-radius:10px 10px 10px 10px; 
+}
+
+.reci_2 p{
+	font-family: 'Raleway', sans-serif;
+	font-size: 100%;
+}
+
+.reci_2 .button{
+	display:block; 
+	margin:0 auto;
+	background-color: blue;
+	height:auto;
+	width: 300px;
+	font-size: 1em;
+	border-radius:30px;
+	cursor: pointer;
+}
+
+.reci_2 .button:hover{
+	display:block; 
+	margin:0 auto;
+	background-color: #4A51C2;
+	height:auto;
+	width: 300px;
+	font-size: 1em;
+	border-radius:30px;
+	cursor: pointer;
+}
+
+.reci_2 img{
+	max-width: 70%;
+	margin: 2px;
+}
+
+
+
+
+.reci_3 {
+	display:block;
+	margin:0 auto;
+	padding:5px 5px 0px 5px;
+	background-color: #E8B60C;
+	width:auto;
+	height:auto;
+}
+
+.reci_3 h1{
+	display:block;
+	margin:0 auto;
+	padding:10px;
+	background-color: blue;
+	width:100%;
+	height:auto;
+	font-size: 3em;
+	font-family: 'Raleway', sans-serif;
+	border-radius:10px 10px 10px 10px; 
+}
+
+.reci_3 p{
+	font-family: 'Raleway', sans-serif;
+	font-size: 100%;
+}
+
+.reci_3 .button{
+	display:block; 
+	margin:0 auto;
+	background-color: blue;
+	height:auto;
+	width: 300px;
+	font-size: 1em;
+	border-radius:30px;
+	cursor: pointer;
+}
+
+.reci_3 .button:hover{
+	display:block; 
+	margin:0 auto;
+	background-color: #4A51C2;
+	height:auto;
+	width: 300px;
+	font-size: 1em;
+	border-radius:30px;
+	cursor: pointer;
+}
+
+.reci_3 img{
+	max-width: 70%;
+	margin: 2px;
+}
+
+
+
+
+
+.reci_4 {
+	display:block;
+	margin:0 auto;
+	padding:5px 5px 0px 5px;
+	background-color: #E8B60C;
+	width:auto;
+	height:auto;
+}
+
+.reci_4 h1{
+	display:block;
+	margin:0 auto;
+	padding:10px;
+	background-color: blue;
+	width:100%;
+	height:auto;
+	font-size: 3em;
+	font-family: 'Raleway', sans-serif;
+	border-radius:10px 10px 10px 10px; 
+}
+
+.reci_4 p{
+	font-family: 'Raleway', sans-serif;
+	font-size: 100%;
+}
+
+.reci_4 .button{
+	display:block; 
+	margin:0 auto;
+	background-color: blue;
+	height:auto;
+	width: 300px;
+	font-size: 1em;
+	border-radius:30px;
+	cursor: pointer;
+}
+
+.reci_4 .button:hover{
+	display:block; 
+	margin:0 auto;
+	background-color: #4A51C2;
+	height:auto;
+	width: 300px;
+	font-size: 1em;
+	border-radius:30px;
+	cursor: pointer;
+}
+
+.reci_4 img{
+	max-width: 70%;
+	margin: 2px;
+}
+
+
+
+
+
+.reci_5 {
+	display:block;
+	margin:0 auto;
+	padding:5px 5px 0px 5px;
+	background-color: #E8B60C;
+	width:auto;
+	height:auto;
+}
+
+.reci_5 h1{
+	display:block;
+	margin:0 auto;
+	padding:10px;
+	background-color: blue;
+	width:100%;
+	height:auto;
+	font-size: 3em;
+	font-family: 'Raleway', sans-serif;
+	border-radius:10px 10px 10px 10px; 
+}
+
+.reci_5 p{
+	font-family: 'Raleway', sans-serif;
+	font-size: 100%;
+}
+
+.reci_5 .button{
+	display:block; 
+	margin:0 auto;
+	background-color: blue;
+	height:auto;
+	width: 300px;
+	font-size: 1em;
+	border-radius:30px;
+	cursor: pointer;
+}
+
+.reci_5 .button:hover{
+	display:block; 
+	margin:0 auto;
+	background-color: #4A51C2;
+	height:auto;
+	width: 300px;
+	font-size: 1em;
+	border-radius:30px;
+	cursor: pointer;
+}
+
+.reci_5 img{
+	max-width: 70%;
+	margin: 2px;
+}
+
+
+
+
+
+.reci_6 {
+	display:block;
+	margin:0 auto;
+	padding:5px 5px 0px 5px;
+	background-color: #E8B60C;
+	width:auto;
+	height:auto;
+}
+
+.reci_6 h1{
+	display:block;
+	margin:0 auto;
+	padding:10px;
+	background-color: blue;
+	width:100%;
+	height:auto;
+	font-size: 3em;
+	font-family: 'Raleway', sans-serif;
+	border-radius:10px 10px 10px 10px; 
+}
+
+.reci_6 p{
+	font-family: 'Raleway', sans-serif;
+	font-size: 100%;
+}
+
+.reci_6 .button{
+	display:block; 
+	margin:0 auto;
+	background-color: blue;
+	height:auto;
+	width: 300px;
+	font-size: 1em;
+	border-radius:30px;
+	cursor: pointer;
+}
+
+.reci_6 .button:hover{
+	display:block; 
+	margin:0 auto;
+	background-color: #4A51C2;
+	height:auto;
+	width: 300px;
+	font-size: 1em;
+	border-radius:30px;
+	cursor: pointer;
+}
+
+.reci_6 img{
+	max-width: 70%;
+	margin: 2px;
+}
+
+
+
 
 	article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
 		display: block;
@@ -50,10 +409,10 @@
 		content: none;
 	}
 
-	table {
+	/*table { aca estan los estilos de las tablas
 		border-collapse: collapse;
 		border-spacing: 0;
-	}
+	}*/
 
 	body {
 		-webkit-text-size-adjust: none;
@@ -2951,7 +3310,7 @@
 
 		#banner:before {
 			content: '';
-			background: rgba(75, 75, 93, 0.60);
+			background: rgba(10, 75, 93, 0.60);
 			position: absolute;
 			width: 100%;
 			height: 100%;
